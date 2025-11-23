@@ -13,9 +13,9 @@
 
 ## Overview
 
-Eating, kissing, singing, blowing, spitting, whistling and biting; our mouths have many uses. The tongue, lips and oral cavity offer high sensitivity for tactile feedback and diverse chemical sensing, which is paired with precise and fatigue-resistant motor abilities. On top of this, all mouth function is supported by the hypoglossal cranial nerve, which is typically unharmed in spinal cord injuries and less affected by neuromuscular disorders, making the mouth an obvious means of operating accessibility aids and human-computer interaction for people with disabilities.
+Eating, kissing, singing, blowing, spitting, whistling and biting; our mouths have many talents. These abilities are aided by a divers range of sensory faculties in the oral cavity, which is paired with precise and fatigue-resistant motor abilities. On top of this, all mouth function is supported by the hypoglossal cranial nerve, which is typically unharmed in spinal cord injuries and less affected by neuromuscular disorders, making the mouth an essential means of operating accessibility aids and devices human-computer interaction for people with disabilities.
 
-While there are some examples of digital wind instruments, the mouth remains relatively unexplored as a means of interfacing with digital music tools and instruments. In this workshop, we will investigate this and expose new possibilities for tangible interfaces for music making, which are inclusive and accessible to a broad range of bodies, and provide a diversity of embodied experiences and sensory modalities in their use.
+However, the mouth remains relatively unexplored as a means of interfacing with digital music tools and instruments. In this workshop, we will investigate this and expose new possibilities for tangible interfaces for music making, which are inclusive and accessible to a broad range of bodies, and provide a diversity of embodied experiences and sensory modalities in their use.
 
 ## What to bring
 
@@ -83,11 +83,9 @@ A sip‑n‑puff interface is one of the earliest devices for human‑computer i
 - LPS38:
   - [Python_LPS28](https://github.com/adafruit/Adafruit_CircuitPython_LPS28/releases)
 
+**Example code**: [PuffSip - example (Examples/PuffSip.py)](Examples/PuffSip.py)
 
 ### TOF array for mouth gestures
-
-
-**Example code**: [PuffSip - example (Examples/PuffSip.py)](Examples/PuffSip.py)
 
 <p>
   <img src="Raw/VL53L5CX.jpg" alt="VL53L5CX TOF array" style="height:180px; object-fit:contain; margin:8px 0;">
