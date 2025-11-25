@@ -124,6 +124,11 @@ When eating, many of the tactile qualities of food are perceived via sound condu
 
 #### Tongue Display Unit (TDU)
 
+<p>
+  <img src="Raw/TDU.png" alt="TDU device" style="height:180px; object-fit:contain; margin:8px 0;">
+   <img src="Raw/TDUCircuit.png" alt="TDU driver circuit" style="height:180px; object-fit:contain; margin:8px 0;">
+</p>
+
 The Tongue Display Unit, developed by Paul Bach‑y‑Rita, is an electrotactile interface that uses a small grid of electrodes on the tongue to convey information through patterned stimulation. The BrainPort device extends this concept for balance support, navigation, communication, and other assistive applications, demonstrating the mouth’s potential for precise, information‑rich HCI.
 
 Basic electronics for a TDU electrode are relatively simple; however, pulse timing and sensation require careful design and safety considerations.
