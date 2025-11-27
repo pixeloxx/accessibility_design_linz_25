@@ -133,6 +133,8 @@ The Tongue Display Unit, developed by Paul Bach‑y‑Rita, is an electrotactile
 
 Basic electronics for a TDU electrode are relatively simple; however, pulse timing and sensation require careful design and safety considerations.
 
+Code examples for the TDU pop, and PCB files can be found here: [(The TDU Pop)](https://github.com/pixeloxx/TDU_Pop)
+
 #### Haptic engines
 
 <p>
