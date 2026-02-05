@@ -13,7 +13,7 @@
 
 ## Overview
 
-Eating, kissing, singing, blowing, spitting, whistling and biting; our mouths have many talents. These abilities are aided by a divers range of sensory faculties in the oral cavity, which is paired with precise and fatigue-resistant motor abilities. On top of this, all mouth function is supported by the hypoglossal cranial nerve, which is typically unharmed in spinal cord injuries and less affected by neuromuscular disorders, making the mouth an essential means of operating accessibility aids and devices human-computer interaction for people with disabilities.
+Eating, kissing, singing, blowing, spitting, whistling and biting; our mouths have many talents. These abilities are aided by a divers range of sensory faculties in the oral cavity, which is paired with precise and fatigue-resistant motor abilities. On top of this, all mouth function is supported by the hypoglossal cranial nerve, which is typically unharmed in spinal cord injuries and less affected by neuromuscular disorders, making the mouth an essential means of operating accessibility aids for people with disabilities.
 
 However, the mouth remains relatively unexplored as a means of interfacing with digital music tools and instruments. In this workshop, we will investigate this and expose new possibilities for tangible interfaces for music making, which are inclusive and accessible to a broad range of bodies, and provide a diversity of embodied experiences and sensory modalities in their use.
 
