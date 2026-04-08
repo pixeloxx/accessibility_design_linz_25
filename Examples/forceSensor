@@ -1,0 +1,51 @@
+import time
+import board
+import analogio
+import usb_midi
+import adafruit_midi
+
+from adafruit_midi.note_on import NoteOn
+from adafruit_midi.note_off import NoteOff
+
+# --- Setup MIDI ---
+midi = adafruit_midi.MIDI(
+    midi_out=usb_midi.ports[1],  # USB MIDI out
+    out_channel=0
+)
+
+# --- Setup force sensor (analog input) ---
+force = analogio.AnalogIn(board.A0)
+
+# --- Config ---
+THRESHOLD = 20000      # adjust depending on your sensor
+MAX_VALUE = 65535
+
+note_playing = False
+NOTE = 60  # Middle C
+
+def get_force():
+    return force.value  # 0–65535
+
+def main():
+    global note_playing
+
+    while True:
+        value = get_force()
+        print("force:", value)
+
+        if value > THRESHOLD and not note_playing:
+            velocity = int((value / MAX_VALUE) * 127)
+            velocity = max(20, min(127, velocity))  # clamp
+
+            midi.send(NoteOn(NOTE, velocity))
+            note_playing = True
+            print("Note ON", velocity)
+
+        elif value <= THRESHOLD and note_playing:
+            midi.send(NoteOff(NOTE, 0))
+            note_playing = False
+            print("Note OFF")
+
+        time.sleep(0.01)
+
+main()
